@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CrudMvvm</name>
+    </assembly>
+    <members>
+        <member name="T:CrudMvvm.DTOs.ProductoDTO">
+            <inheritdoc/>
+        </member>
+        <member name="P:CrudMvvm.DTOs.ProductoDTO.IdProducto">
+            <inheritdoc cref="F:CrudMvvm.DTOs.ProductoDTO.idProducto"/>
+        </member>
+        <member name="P:CrudMvvm.DTOs.ProductoDTO.NombreProducto">
+            <inheritdoc cref="F:CrudMvvm.DTOs.ProductoDTO.nombreProducto"/>
+        </member>
+        <member name="P:CrudMvvm.DTOs.ProductoDTO.Detalle">
+            <inheritdoc cref="F:CrudMvvm.DTOs.ProductoDTO.detalle"/>
+        </member>
+        <member name="P:CrudMvvm.DTOs.ProductoDTO.Precio">
+            <inheritdoc cref="F:CrudMvvm.DTOs.ProductoDTO.precio"/>
+        </member>
+        <member name="P:CrudMvvm.DTOs.ProductoDTO.FechaCaducidad">
+            <inheritdoc cref="F:CrudMvvm.DTOs.ProductoDTO.fechaCaducidad"/>
+        </member>
+        <member name="T:CrudMvvm.ViewModels.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:CrudMvvm.ViewModels.MainViewModel.ListaProductos">
+            <inheritdoc cref="F:CrudMvvm.ViewModels.MainViewModel.listaProductos"/>
+        </member>
+        <member name="F:CrudMvvm.ViewModels.MainViewModel.crearCommand">
+            <summary>The backing field for <see cref="P:CrudMvvm.ViewModels.MainViewModel.CrearCommand"/>.</summary>
+        </member>
+        <member name="P:CrudMvvm.ViewModels.MainViewModel.CrearCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CrudMvvm.ViewModels.MainViewModel.Crear"/>.</summary>
+        </member>
+        <member name="F:CrudMvvm.ViewModels.MainViewModel.editarCommand">
+            <summary>The backing field for <see cref="P:CrudMvvm.ViewModels.MainViewModel.EditarCommand"/>.</summary>
+        </member>
+        <member name="P:CrudMvvm.ViewModels.MainViewModel.EditarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:CrudMvvm.ViewModels.MainViewModel.Editar(CrudMvvm.DTOs.ProductoDTO)"/>.</summary>
+        </member>
+        <member name="F:CrudMvvm.ViewModels.MainViewModel.eliminarCommand">
+            <summary>The backing field for <see cref="P:CrudMvvm.ViewModels.MainViewModel.EliminarCommand"/>.</summary>
+        </member>
+        <member name="P:CrudMvvm.ViewModels.MainViewModel.EliminarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:CrudMvvm.ViewModels.MainViewModel.Eliminar(CrudMvvm.DTOs.ProductoDTO)"/>.</summary>
+        </member>
+        <member name="T:CrudMvvm.ViewModels.ProductoViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:CrudMvvm.ViewModels.ProductoViewModel.ProductoDTO">
+            <inheritdoc cref="F:CrudMvvm.ViewModels.ProductoViewModel.productoDTO"/>
+        </member>
+        <member name="P:CrudMvvm.ViewModels.ProductoViewModel.TituloPagina">
+            <inheritdoc cref="F:CrudMvvm.ViewModels.ProductoViewModel.tituloPagina"/>
+        </member>
+        <member name="P:CrudMvvm.ViewModels.ProductoViewModel.LoadingEsVisible">
+            <inheritdoc cref="F:CrudMvvm.ViewModels.ProductoViewModel.loadingEsVisible"/>
+        </member>
+        <member name="F:CrudMvvm.ViewModels.ProductoViewModel.guardarCommand">
+            <summary>The backing field for <see cref="P:CrudMvvm.ViewModels.ProductoViewModel.GuardarCommand"/>.</summary>
+        </member>
+        <member name="P:CrudMvvm.ViewModels.ProductoViewModel.GuardarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CrudMvvm.ViewModels.ProductoViewModel.Guardar"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IdProducto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IdProducto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NombreProducto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NombreProducto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Detalle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Detalle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Precio">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Precio" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FechaCaducidad">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FechaCaducidad" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ListaProductos">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ListaProductos" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductoDTO">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductoDTO" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TituloPagina">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TituloPagina" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LoadingEsVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LoadingEsVisible" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IdProducto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IdProducto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NombreProducto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NombreProducto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Detalle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Detalle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Precio">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Precio" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FechaCaducidad">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FechaCaducidad" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ListaProductos">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ListaProductos" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductoDTO">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductoDTO" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TituloPagina">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TituloPagina" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LoadingEsVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LoadingEsVisible" generated properties.</summary>
+        </member>
+    </members>
+</doc>
